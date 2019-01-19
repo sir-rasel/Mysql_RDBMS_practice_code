@@ -20,7 +20,7 @@ create table works(
     personName varchar(30) not null,
     companyName varchar(50) not null,
     foreign key(personName) references lives(personName) on delete cascade on update cascade,
-    foreign key(companyName) references location(companyName) on delete cascade on update cascade,
+    foreign key(companyName) references location(companyName) on delete cascade on update cascade
 );
  
 create table manages(
