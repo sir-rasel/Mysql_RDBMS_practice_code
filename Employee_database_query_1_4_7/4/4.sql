@@ -80,4 +80,4 @@ where works.companyName='SIR SOFT' and salary>20000;
 
 -- find employee who earn more than any ist employeer
 select employeeName from works
-where salary>(select max(salary) from works where companyName='IST';);
+where salary>(select max(salary) from works where companyName='IST');
